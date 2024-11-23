@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #6aa092;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding : 30px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+header .container {
+    width: 500px; 
+    margin: 0 auto; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+main {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    color: white;
+}
+
+.section {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    color: #E0E0E0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #f3f3f3;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 48%;
+    padding: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
+}
+
+.project h3 {
+    color: #FFC107;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #FFC107;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #ffca28;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFC107;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
